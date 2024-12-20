@@ -1,0 +1,92 @@
+/* createBlog.css */
+
+/* .navbar-container {
+    background-color: #14C38E;
+} */
+
+.navbar-container {
+  background-color: #14C38E;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px #33be3a;
+  width: 100%
+}
+
+.navbar {
+  margin-right: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #33be3a;
+}
+
+.parent-container {
+  background-image: url("https://thumbs.dreamstime.com/b/panoramic-wide-organic-food-background-concept-full-frame-pile-fresh-vegetables-fruits-mix-forming-bright-colorful-91657697.jpg?w=1600");
+  background-size: contain;
+}
+
+h2 {
+  color: #33be3a;
+  /* Reddish tone */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #d7f0d8;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #33be3a;
+}
+
+button {
+  background-color: #33be3a;
+  color: #fff;
+  padding: 5px !important;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+/* Image preview styling */
+.image-preview {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #33be3a;
+}
+
+.App .Footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  padding: 3rem;
+  background-color: #14C38E;
+  color: white;
+}

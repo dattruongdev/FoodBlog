@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+.login{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 40%;
+    align-items: left;
+    font-size: 1.2rem;
+    font-family: Lato;
+}
+
+.login input {
+    width: 40%;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+.login #submit-btn{
+    font-size: 0.8rem;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: #14C38E;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.4s background;
+}
+.login #submit-btn:hover{
+    background-color: #00FFAB;
+}
+
+.login a {
+    width: 40%;
+    font-size: 0.8rem;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #14C38E;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.4s background;
+}
+
+.login a:hover {
+    background-color: #00FFAB;
+}
+
+.login .error{
+    color: orangered;
+    font-size: 0.8rem;
+}

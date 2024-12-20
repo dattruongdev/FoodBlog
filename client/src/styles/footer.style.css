@@ -1,0 +1,22 @@
+
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 6rem;
+  padding: 3rem;
+  background-color: #14C38E;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer.footer-logo {
+  background-image: url('../../public/logo.png');
+  background-position: center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+}

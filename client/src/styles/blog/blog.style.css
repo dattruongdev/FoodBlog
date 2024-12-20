@@ -1,0 +1,61 @@
+.blogs-layout {
+  display: flex;
+
+}
+
+
+.blogs {
+  width: 100%;
+  padding: 2rem;
+  margin: 2rem auto 0;
+  display: grid;
+  justify-content: center;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+
+
+.searchbox form {
+  display: flex;
+  flex-direction: row;
+  margin: 0 2rem 0 auto;
+  gap: 1rem;
+  width: 250px;
+}
+
+.searchbox input {
+  text-indent: 10px;
+  border: 1px solid #14C38E;
+}
+
+.searchbox button {
+  background-color: #14C38E;
+  color: white;
+}
+
+@media screen and (min-width: 932px) {
+  .blogs {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+}
+
+
+@media screen and (min-width: 1280px) {
+  .blogs {
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+
+}
+
+
+@media screen and (min-width: 1660px) {
+  .blogs {
+    grid-template-columns: repeat(4, 1fr);
+
+  }
+
+}

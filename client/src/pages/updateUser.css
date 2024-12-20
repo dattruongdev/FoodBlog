@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+*{
+    font-family: Lato;
+}
+/* *{ */
+/*     margin-top: 10px; */
+/* } */
+.updateUser{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-items: center;
+}
+.updateUser p,label {
+    color: rgb(0, 0, 0, 0.8);
+    font-size: 1rem;
+}
+.updateUser h3 {
+    margin-left: 25%;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0, 0.8);
+}
+.updateUser a{
+    font-size: 0.8rem;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #14C38E;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.4s background;
+}
+.updateUser a:hover{
+    background-color: #00FFAB;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%; 
+}
+
+.form input{
+    width: 72%;
+}
+.form button{
+    font-size: 0.8rem;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #14C38E;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.4s background;
+    width: 90%;
+}
+
+.form button:hover{
+    background-color: #00FFAB;
+}

@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/v1/blogs/:path*",
+      "destination": "https://foodblogserver.vercel.app/api/v1/blogs/:path*"
+    },
+    {
+      "source": "/auth/:path*",
+      "destination": "https://foodblogserver.vercel.app/auth/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://foodblogserver.vercel.app/api/:path*"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  background-color: #14C38E;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: #00FFAB !important;
+  color: black !important;
+}
+
+button a {
+  color: white !important;
+  transition: 0.4s;
+}
+
+button:hover a {
+  color: black !important;
+}
+
+/* blogCreate.css */
+.image-preview {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}

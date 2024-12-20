@@ -1,0 +1,17 @@
+
+.slogan {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Lobster', sans-serif; 
+  font-size: 1.5rem;
+}
+
+.home-description {
+  width: 50%;
+  margin: 5rem auto 2rem;
+  text-align: center;
+}
+
+

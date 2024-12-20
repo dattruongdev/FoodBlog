@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@100&display=swap');
+
+
+.navbar-container {
+  width: 95%;
+  padding: 0.8rem 0 0.8rem 1rem;
+
+}
+
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 50%;
+  margin-left: auto;
+}
+
+.navbar .nav-home {
+  margin-right: auto;
+  background-image: url("../../public/logo.png");
+  background-position: center;
+  background-size: cover;
+  height: 3rem;
+  width: 4rem;
+
+}
+
+.navbar .nav-user {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 2px rgba(0,0,0,0.3);
+
+}
+
+.navbar .nav-user::after {
+  content: "Dashboard"; 
+  color: black;
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: -100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.navbar .nav-user:hover::after {
+  left: -15%;
+}
+
+.nav-user {
+  margin-right: 10px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar > a {
+  padding: 0.3rem; 
+  text-align: center;
+  position: relative;
+}
+
+.navbar > a:not(:first-child)::after {
+  content: "";
+  background-color: crimson;
+  width: 0px;
+  position: absolute;
+  height: 2px;
+  bottom: -1px;
+  left: 0;
+  transition: 0.4s ; 
+}
+
+.navbar > a:hover::after {
+  width: 100%;
+}
+
+
